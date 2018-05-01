@@ -47,6 +47,10 @@
 	display: block;
 
 }
+.bottom_left {
+	margin-top: -580px;
+	margin-left: 580px;
+}
 .container{
 	display: inline-block;
 	width: 100%;
