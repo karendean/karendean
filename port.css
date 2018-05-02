@@ -3,8 +3,47 @@
 	margin-top: 10%;
     font-family: Futura, Medium;
     font-size: 35pt;
-    text-align: center;
+	text-align: center;
 }
+.container {
+	position: relative;
+	width: 50%;
+  }
+  
+  .image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(255,248,231);
+  }
+  
+  .container:hover .overlay {
+	opacity: 1;
+  }
+  
+  .text {
+	color:red;
+	font-size: 25px;
+	font-style: italic;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  }
 .links{
 	display:flex;
 	justify-content: center;
@@ -48,7 +87,7 @@
 
 }
 .bottom_left {
-	margin-top: -570px;
+	margin-top: -540px;
 	margin-left: 575px;
 }
 .container{
