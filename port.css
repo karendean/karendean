@@ -5,6 +5,13 @@
     font-size: 35pt;
 	text-align: center;
 }
+.bodtext {
+	margin-top: 20%;
+    font-family: Futura, Medium;
+    font-size: 15pt;
+	text-align: center;
+	color:#CA0000;
+}
 .container {
 	position: relative;
 	width: 50%;
@@ -34,7 +41,7 @@
   }
   
   .text {
-	color:red;
+	color: #CA0000;
 	font-size: 25px;
 	font-style: italic;
 	position: absolute;
@@ -202,6 +209,4 @@ footer {
 	margin-bottom: -10px;
 	margin-left: -10px;
 	margin-bottom: -10px;
-	background-color: rgba(255,255,255,.8);
-	box-shadow: 0px -5px 5px rgba(0, 0, 0, .2);
 }
