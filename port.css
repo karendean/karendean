@@ -153,6 +153,13 @@
 			font-family: Futura, Medium;
 			font-size: 50pt;
 		}
+		.proj5 img {
+			margin-top: -800px;
+			display: inline-block;
+			width: 51%;
+			font-family: Futura, Medium;
+			font-size: 50pt;
+		}
 body {
 	background-color: #FFF8E7;
 }
